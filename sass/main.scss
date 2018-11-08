@@ -1,0 +1,13 @@
+.main {
+  background: url("../img/main__background.png") center/cover;
+  padding-top: 90px;
+
+  &__title {
+    display: block;
+    max-width: 960px;
+    width: 100%;
+    margin: 230px auto 0;
+    font: bold italic 3rem "Montserrat", Serif;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  width: 100%;
+  margin: 55px auto 0;
+
+  &__input {
+    width: 740px;
+    height: 55px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 4px;
+    font: italic 1rem "Montserrat", Serif;
+    color: #c7c7c7;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+
+  &__button {
+    width: 140px;
+    height: 55px;
+    font: italic 1rem "Montserrat", Serif;
+    color: #e9f9ff;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background: #4acaff;
+    border: none;
+    border-radius: 4px;
+
+  }
+}
